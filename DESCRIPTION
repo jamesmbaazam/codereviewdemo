@@ -1,14 +1,14 @@
 Package: codereviewdemo
 Title: Material For The Demonstrating Code Review Process
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "James M.", family = "Azam", , email = "james.azam@lshtm.ac.uk", role = c("aut", "cre"),
-           comment = c(ORCID = "https://orcid.org/0000-0001-5782-7330"),
+Authors@R: c(
+    person(given = "James M.", family = "Azam", email = "james.azam@lshtm.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5782-7330")),
     person(given = "Joshua W.", family = "Lambert", email = "joshua.lambert@lshtm.ac.uk", role = c("aut"),
            comment = c(ORCID = "0000-0001-5218-3046"))
+ )
 Description: Contains material to accompany a live demo of the code review process.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
