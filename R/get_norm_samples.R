@@ -11,7 +11,7 @@ get_norm_samples <- function(mylist){
 # premake list
   ll_rand <- list()
   
-  for (i in 1:length(mylist)) {
+  for (i in seq_along(mylist)) {
     element_length <- length(mylist[[i]])
     rnorm_samples <- rnorm(ll)
     ll_rand[[i]] <- rnorm_samples
